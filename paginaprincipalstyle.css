@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Roboto";
+    border: none;
+}
+
+/*
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;*/
+
+body{
+    height: 2000px;
+    background-image: url(FundodositeKanda.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    max-width: 100%;
+    padding-top: 1.5rem;
+    align-items: center;
+    background-color: #FFD011;
+    border-radius: 0 0 50px 50px;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+    margin-left: 5rem;
+}
+
+
+.botaolink{
+    background-color:#545454;
+    color: white;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 25px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    display:flex;
+  
+}
+
+.c-titulo{
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.c-titulo h2{
+    color: #fff;
+    background-color: #000;
+    border: 2px #FFF;
+}
+
+.c-titulo a{
+    
+    display:flex; 
+    padding: 10px 20px;
+    background-color: #FFD011; 
+    color: #000; 
+    text-align: center;
+    text-decoration: none; 
+    border: 5px solid white; 
+    border-radius: 50px 50px 50px 50px; 
+    transition: background-color 0.3s; 
+   justify-content: center; 
+}
+
+/* Botão do zap */
+.whatsapp-button {
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    z-index: 1000;
+}
+
+.whatsapp-button:hover {
+    background-color: #03682a;
+}
+
+.whatsapp-button img {
+    width: 50px;
+    height: 50px;
+}
+/*--Fim do botão do zap*/
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(249, 248, 242);
+    border-radius: 10px;
+}
+
+.retangulo {
+    width: 100%; /* Largura total */
+    height: 100px; /* Altura do retângulo */
+    background-color: white; /* Cor de fundo */
+    position: relative; /* Para controle de posicionamento */
+    bottom: 0; /* Para ficar no final da página */
+    
+}
+.circulo1 {
+    width: 50px; /* Largura inicial do círculo */
+    height: 50px; /* Altura inicial do círculo */
+    background-color: #FFD011; /* Cor do círculo */
+    border-radius: 50%; /* Faz o elemento se tornar um círculo */
+    display: inline-block;
+    bottom: 5px;
+    z-index: 1000;
+    position: absolute;
+    right: 1100px;
+    cursor:pointer;
+    
+}
+
+
+.circulo2 {
+    width: 50px;
+    height: 50px; 
+    background-color: #FFD011;
+    border-radius: 50%; 
+    display: inline-block;
+    bottom: 5px;
+    z-index: 1000;
+    position: absolute;
+    right: 900px;
+    cursor: pointer;
+}
+.circulo3 {
+    width: 50px;
+    height: 50px; 
+    background-color: #FFD011; 
+    border-radius: 50%;
+    display: inline-block;
+    bottom: 5px;
+    z-index: 1000;
+    position: absolute;
+    right: 400px;
+    cursor: pointer;
+}
+.circulo4 {
+    width: 50px;
+    height: 50px; 
+    background-color: #FFD011;
+    border-radius: 50%; 
+    display: inline-block;
+    bottom: 5px;
+    z-index: 1000;
+    position: absolute;
+    right: 200px;
+    cursor: pointer;
+}
+
+
+/* SIMULADOR DE COMPRA*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Roboto";
+    border: none;
+}
+
+
+body{ 
+    background-color: #ffffff;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.produto-box img {
+    width: 100%;
+    height: auto;
+}
+.produto-info {
+    margin-top: 10px;
+}
+.produto-info h2 {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #000000;
+}
+.produto-info p {
+    display:inline;
+    font-size: 22px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.preco{
+    font-size: 22px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botaocomprar{
+    display:flex; 
+    padding: 5px    10px;
+    background-color: #FFD011; 
+    color: #000; 
+    text-align: center;
+    text-decoration: none; 
+    border: 3px solid white; 
+    border-radius: 50px 50px 50px 50px; 
+    transition: background-color 0.3s; 
+   justify-content: center; 
+}
+.contador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.contador button {
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.contador input {
+    width: 50px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+/* CARRINHO */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&family=Rock+Salt&display=swap');
+
+:root {
+  --white: #fff;
+  --red: #aa0505;
+  --gray: #959595;
+  --blue: #56c5db;
+  --yelllow: #FFD011;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body, button, input, textarea {
+  font: 400 15px "Roboto", sans-serif;
+}
+.buttons-head{
+  display:flex;
+  gap: 50px;
+ justify-content:right;
+ justify-content: safe;
+}
+
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-box {
+  width: 200px;
+  border: 1px solid #000000;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #ddbf9d;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-title {
+  font-size: 20px;
+  margin-bottom: 6px;
+
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.product-price-container {
+  margin-top: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.product-price {
+  margin-right: 12px;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: var(--red);
+}
+
+.button-hover-background {
+  background: #FFD011;
+  color: var(--black);
+  border: 2px solid var(--white);
+  border-radius: 25px 25px 25px 25px;
+  padding: 4px 2px;
+  cursor: pointer;
+}
+
+.button-hover-background:hover {
+  background: #f4c610d0;
+  color: var(--white);
+  transition: 0.2s;
+}
+
+/* Tabela carrinho de compras */
+.cart-table {
+  width: 100%;
+  border: 1px solid #000000;
+  background-color: #ddbf9d;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+.table-head-item {
+  text-align: start;
+  border-bottom: 1px solid var(--gray);
+  padding-bottom: 6px;
+  text-transform: uppercase;
+}
+.cart-product td {
+  padding: 8px 0;
+}
+.cart-product-image {
+  width: 120px;
+  height: 80px;
+}
+
+.cart-product-title {
+  margin-left: 16px;
+  font-size: 18px;
+}
+
+.cart-product-price {
+  font-family: "Raleway", sans-serif;
+}
+
+.product-qtd-input {
+  width: 48px;
+  height: 34px;
+  border-radius: 6px;
+  border: 2px solid #000;
+  text-align: center;
+  background: #fff;
+}
+
+.remove-product-button {
+  margin-left: 12px;
+  background: #ff0000;
+  color: var(--white);
+  padding: 10px 8px;
+  border: 0;
+  border-radius: 6px;
+
+  transition: filter 0.2s;
+}
+
+.remove-product-button:hover {
+  filter: brightness(0.8);
+}
+
+.cart-total-container {
+  border-top: 1px solid #000;
+  text-align: end;
+  padding: 6px 16px 0 0;
+  font-size: 18px;
+  background-color: #FFD011;
+  color:#000;
+}
+
+.cart-total-container strong {
+  margin-right: 12px;
+
+
+}
+
+.purchase-button {
+  display: flex;
+  margin: 24px auto 0;
+  background: #FFD011;
+  color: #000;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  padding: 25px 25px 25px 25px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.purchase-button :hover{
+   background: #917504;
+   color: #fff;
+}
